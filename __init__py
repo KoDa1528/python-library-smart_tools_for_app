@@ -1,0 +1,70 @@
+def window(height, width):
+    print("""
+    ==========================
+    ||You downloaded nothing||
+    ==========================
+    """)
+def create_button(width, height, x, y):
+    print("""
+    ============================
+    ||This button does nothing||
+    ============================
+    """)
+def base():
+    print("""
+    ===================================
+    ||Do you really think this works?||
+    ===================================
+    """)
+def close_window():
+    print("""
+    ================================
+    ||No, I won't close the window||
+    ================================
+    """)
+def find_API(number_API):
+    print("""
+    ========================
+    ||I didn't find it API||
+    ========================
+    """)
+def two_factor_auto(password, login):
+    print("""
+    ==============================
+    ||I don't find this account,||
+    || you don't create account ||
+    ==============================
+    """)
+def create_account(password, login, name):
+    print("""
+    ==================================
+    ||You want to create an account,||
+    ||        but I don't.          ||
+    ==================================
+    """)
+def internet_connection():
+    print("""
+    ===================================
+    ||        Internet? What,        ||
+    ||I didn't hear the word internet||
+    ===================================
+    """)
+def create_API(password, login):
+    print("""
+    =============================
+    ||No, I won't create it API||
+    =============================
+    """)
+def touch_on_button(button):
+    print("""
+    =========================
+    ||you downloaded nothing||
+    =========================
+    """)
+    return True
+class button:
+    def __init__(self, x, y, width, height):
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
